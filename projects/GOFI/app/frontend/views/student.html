@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <link rel="stylesheet" href="../styles/main.css" />
+        <title>Guidance Office Management information system</title>
+    </head>
+    <body class="homepage">
+        <div class="sidebar-container">
+            <div class="first-content-container">
+                <!-- Profile Container -->
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img
+                            src="../../assets/images/user.svg"
+                            alt="User Profile"
+                            class="img-style"
+                        />
+                    </div>
+                    <div class="user-info">
+                        <p class="profile-name">Full name</p>
+                        <p class="profile-role">Student</p>
+                    </div>
+                </div>
+
+                <!-- Navigation Bar -->
+                <div class="navbar-container">
+                    <ul class="navbar">
+                        <li class="navbar-item">
+                            <span class="nav-item-icon block">
+                                <img
+                                    src="../../assets/images/dashboard.svg"
+                                    class="img-style"
+                                    alt="Student Entry Icon"
+                                    style="width: 25px"
+                                />
+                            </span>
+                            <button
+                                id="student-entry-button"
+                                class="navbar-link"
+                            >
+                                Dashboard
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Logout Button -->
+            <div class="logout-container">
+                <div class="logout-button">
+                    <button class="logout" id="logout-button">
+                        <img
+                            src="../../assets/images/logout.svg"
+                            class="img-style"
+                            alt="Logout Icon"
+                        />
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <div class="second-column">
+            <div class="header-container">
+                <div class="page-name">
+                    <h1 class="heading-name">Dashboard</h1>
+                </div>
+                <div class="school-logo">
+                    <img
+                        src="../../assets/images/PCU-logo-1.svg"
+                        alt="PCU Logo"
+                    />
+                </div>
+            </div>
+            <div
+                class="dynamic-content-container"
+                id="dynamic-content-container"
+            >
+                <!-- Dynamic content will inject here -->
+                <div class="student-page-container">
+                    <div class="header-container">
+                        <div class="school-year-label">
+                            <h3>Academic Year / Semester</h3>
+                            <h2>2023 - 2024 | First Semester</h2>
+                        </div>
+                    </div>
+                    <div class="student-dashboard">
+                        <div class="first-column">
+                            <div class="violation-card">
+                                <div class="total-violations">
+                                    <p class="label">Total Violations:</p>
+                                    <p class="total" id="total-violations">0</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="second-column"
+                            id="announcement-container"
+                        ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script defer type="module" src="../scripts/pages/student.js"></script>
+    </body>
+</html>

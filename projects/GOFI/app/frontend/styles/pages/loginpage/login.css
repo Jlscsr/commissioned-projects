@@ -1,0 +1,108 @@
+/*
+========================================================================
+                        CSS for Login Page
+========================================================================
+
+This file contains styles for the login page.
+
+========================================================================
+                        Login Container Styles
+========================================================================
+*/
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../../../../assets/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*
+========================================================================
+                        Wrapper Styles
+========================================================================
+*/
+
+.login > .wrapper {
+    max-width: 100%;
+    width: 26.3rem;
+    border: 0.13rem solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1.25rem);
+    color: #f5f7f8;
+    border-radius: 0.63rem;
+    padding: 2rem;
+}
+
+/*
+========================================================================
+                        Login Heading Styles
+========================================================================
+*/
+
+.login > .wrapper h1 {
+    font-size: 2.9rem;
+    text-align: center;
+}
+
+/*
+========================================================================
+                        Form Styles
+========================================================================
+*/
+
+.login > .wrapper > .form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-top: 1rem;
+}
+
+.login > .wrapper > .form > .input-box > label {
+    margin-bottom: 0.3rem;
+}
+
+.login > .wrapper > .form > .input-box > input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 0.13rem solid #ffffff33;
+    border-radius: 3rem;
+    font-size: 1rem;
+    font-family: "Poppins Light", sans-serif;
+    color: #fff;
+    padding: 0.8rem 2rem;
+}
+
+.login > .wrapper > .form > .input-box > input::placeholder {
+    color: #3c3c3c;
+}
+
+/*
+========================================================================
+                        Button Styles
+========================================================================
+*/
+
+.login > .wrapper > .form > button {
+    width: 100%;
+    padding: 0.8rem 1.5rem;
+    margin-top: 2.5rem;
+    background: #fff;
+    font-family: "Poppins Medium", sans-serif;
+    font-size: 1.1rem;
+    color: #333;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3.13rem;
+    box-shadow: 0 0 0.63rem rgba(0, 0, 0, 0.1);
+}
+
+.login > .wrapper > .form > button:hover {
+    background: #eeeded;
+}

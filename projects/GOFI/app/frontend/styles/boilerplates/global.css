@@ -1,0 +1,135 @@
+/*
+========================================================================
+                    Global and Reset Styles
+========================================================================
+
+This section includes global and reset styles that apply to various elements 
+throughout the document.
+
+========================================================================
+                    Box Sizing and Spacing Reset
+========================================================================
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+========================================================================
+                    Heading Styles Reset
+========================================================================
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+/*
+========================================================================
+                    Anchor Styles
+========================================================================
+*/
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*
+========================================================================
+                    Image Styles
+========================================================================
+*/
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*
+========================================================================
+                    List Styles Reset
+========================================================================
+*/
+
+ul li {
+    list-style: none;
+}
+
+/*
+========================================================================
+                    Button Styles Reset
+========================================================================
+*/
+
+button,
+button[type="submit"] {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/*
+========================================================================
+                    Additional Styles
+========================================================================
+*/
+
+.block {
+    display: block;
+}
+
+.btn-primary {
+    padding: 8px 40px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.input-primary {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: 0.1rem solid #ddd;
+    font-family: "Poppins Regular", sans-serif;
+    transition: border-color 0.2s ease-in-out;
+    width: 100%;
+    outline: none;
+}
+
+.create-button,
+.cancel-button {
+    border-radius: 0.31rem;
+}
+
+/*
+========================================================================
+                    Create Button Styles
+========================================================================
+*/
+
+.create-button {
+    background-color: #295ad9;
+    color: #fff;
+}
+
+/*
+========================================================================
+                    Cancel Button Styles
+========================================================================
+*/
+
+.cancel-button {
+    border: 0.03rem solid #295ad9;
+    background-color: transparent;
+}

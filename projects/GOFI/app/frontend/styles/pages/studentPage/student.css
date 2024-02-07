@@ -1,0 +1,222 @@
+/*
+========================================================================
+                    CSS for Student Page
+========================================================================
+
+This file contains styles for the student page.
+
+========================================================================
+                    Student Page Container Styles
+========================================================================
+*/
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .student-page-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    height: calc(100vh - 185px);
+}
+
+/*
+========================================================================
+                    Header Container Styles
+========================================================================
+*/
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .student-page-container
+    > .header-container {
+    padding-bottom: 1rem;
+    border-bottom: 0.063rem solid #c0c0c0;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .student-page-container
+    > .header-container
+    > .school-year-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .student-page-container
+    > .header-container
+    > .school-year-label
+    > h3 {
+    font-size: 1rem;
+    font-family: "Poppins Light", sans-serif;
+    color: #8b8b8b;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .student-page-container
+    > .header-container
+    > .school-year-label
+    > h2 {
+    font-size: 1.5rem;
+}
+
+/*
+========================================================================
+                    Student Dashboard Styles
+========================================================================
+*/
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .student-page-container
+    > .student-dashboard {
+    display: flex;
+    column-gap: 2rem;
+    height: 100%;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .student-page-container
+    > .student-dashboard
+    > .first-column {
+    position: relative;
+    width: 40%;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .student-page-container
+    > .student-dashboard
+    > .first-column::before {
+    content: "";
+    display: block;
+    position: absolute;
+    padding: 0.031rem;
+    width: 0.063rem;
+    top: 0;
+    bottom: 0;
+    right: -1.063rem;
+    background-color: #c0c0c0;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .student-page-container
+    > .student-dashboard
+    > .first-column
+    > .violation-card {
+    padding: 1.5rem;
+    color: #fff;
+    background-color: #5f80d4;
+    border-radius: 0.25rem;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .student-page-container
+    > .student-dashboard
+    > .first-column
+    > .violation-card
+    > .total-violations
+    > .label {
+    margin-bottom: 1.5rem;
+    font-family: "Poppins Medium", sans-serif;
+    font-size: 1.125rem;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .student-page-container
+    > .student-dashboard
+    > .first-column
+    > .violation-card
+    > .total-violations
+    > .total {
+    font-family: "Poppins Medium", sans-serif;
+    font-size: 2rem;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .student-page-container
+    > .student-dashboard
+    > .second-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+/*
+========================================================================
+                    Announcement Container Styles
+========================================================================
+*/
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .student-page-container
+    > .student-dashboard
+    > .second-column
+    > .announcement-container {
+    display: flex;
+    align-items: center;
+    column-gap: 1.875rem;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .student-page-container
+    > .student-dashboard
+    > .second-column
+    > .announcement-container
+    > .date-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.25rem;
+    height: 100%;
+    color: #909090;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .student-page-container
+    > .student-dashboard
+    > .second-column
+    > .announcement-container
+    > .announcement-body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .student-page-container
+    > .student-dashboard
+    > .second-column
+    > .announcement-container
+    > .announcement-body
+    > p {
+    font-family: "Poppins Light", sans-serif;
+}

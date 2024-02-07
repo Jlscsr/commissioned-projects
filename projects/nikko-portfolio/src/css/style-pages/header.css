@@ -1,0 +1,95 @@
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding-inline: 4.44rem;
+    padding-block: 1.33rem;
+    background-color: #fdfdff;
+    box-shadow: 1px -2px 28px -1px rgba(197, 197, 197, 0.75);
+}
+
+.header > .inner__content > .navbar > .navbar-container {
+    display: flex;
+    gap: 2.22rem;
+}
+
+.header > .inner__content > .navbar > .navbar-container > li > a {
+    color: #9f9f9f;
+}
+
+.header > .inner__content > .navbar > .navbar-container > li.selected > a {
+    color: #333333;
+}
+
+.header > .inner__content.openMenu {
+    display: block;
+}
+
+.header > .hamburger-menu {
+    display: none;
+}
+
+.header > .hamburger-menu > button > img {
+    min-width: 2.22rem;
+    width: 2.78rem;
+}
+
+/* Media Query For Responsive Design */
+@media screen and (max-width: 815px) {
+    /* Navigation Bar */
+    .header > .inner__content {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        z-index: 100;
+        background-color: #62929e;
+    }
+
+    .header > .inner__content > .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .header > .inner__content > .navbar > .close-btn {
+        position: absolute;
+        top: 100px;
+        right: 100px;
+        cursor: pointer;
+    }
+
+    .header > .inner__content > .navbar > .navbar-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header > .inner__content > .navbar > .navbar-container > li > a {
+        color: white;
+        font-size: 1.8rem;
+    }
+
+    .header > .hamburger-menu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        padding-block: 1rem;
+        padding-inline: 1.44rem;
+    }
+
+    .header > .inner__content > .navbar > .close-btn {
+        top: 50px;
+        right: 50px;
+    }
+}

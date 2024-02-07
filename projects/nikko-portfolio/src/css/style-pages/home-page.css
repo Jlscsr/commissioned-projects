@@ -1,0 +1,90 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5.7rem;
+}
+
+/* Home Page */
+.main > .home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13.111rem;
+    padding: 4.444rem;
+    animation: fadeIn 1.5s ease-in;
+}
+
+.main > .home-page > .introduction > .greeting {
+    display: flex;
+    flex-direction: column;
+}
+
+.main > .home-page > .introduction > .social-links {
+    display: flex;
+    gap: 1.11rem;
+    margin-block: 0.89rem;
+}
+
+.main > .home-page > .introduction > .social-links > .social-link {
+    padding: 0.44rem;
+    outline: 0.06rem solid #62929e;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+.main > .home-page > .introduction > .social-links > .social-link:hover {
+    transform: scale(1.1);
+}
+
+.main > .home-page > .introduction > .social-links > .social-link > img {
+    width: 1.4rem;
+}
+
+.main > .home-page > .introduction > .button-cv {
+    margin-top: 2.22rem;
+}
+
+.main > .home-page > .introduction > .button-cv > a {
+    display: inline-block;
+    padding-block: 0.89rem;
+    padding-inline: 1.78rem;
+    color: #fdfdff;
+    background-color: #62929e;
+    border: 1px solid;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.main > .home-page > .introduction > .button-cv > a:hover {
+    background-color: #fdfdfd;
+    color: #333333;
+    border-color: #62929e;
+}
+
+.main > .home-page > .profile-picture {
+    border: 0.28rem solid #393d3f;
+    border-radius: 0.28rem;
+}
+
+.main > .home-page > .profile-picture > img {
+    min-width: 15.2rem;
+    width: 20.6rem;
+}
+
+@media screen and (max-width: 815px) {
+    /* Home Page */
+    .main > .home-page {
+        flex-direction: column-reverse;
+        gap: 80px;
+    }
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

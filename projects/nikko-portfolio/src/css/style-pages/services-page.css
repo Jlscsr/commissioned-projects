@@ -1,0 +1,35 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4.44rem;
+    background-color: #393d3f;
+}
+
+.services > h2 {
+    margin-bottom: 4.9rem;
+}
+
+.services > .inner-content {
+    display: flex;
+    gap: 1.11rem;
+    flex-wrap: wrap;
+}
+
+.services > .inner-content > .service-card {
+    min-width: 16.7rem;
+    flex: 1;
+    background-color: #62929e;
+    padding: 1.33rem;
+    border-radius: 0.6rem;
+}
+
+.services > .inner-content > .service-card > .image-container {
+    display: grid;
+    place-items: center;
+}
+
+.services > .inner-content > .service-card > .image-container > img {
+    width: 8.33rem;
+}

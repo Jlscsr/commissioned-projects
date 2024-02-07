@@ -1,0 +1,46 @@
+/* Thin Font */
+@font-face {
+    font-family: "Open Sans Light";
+    src: local("Open Sans Light"), local("OpenSans-Light");
+    src: url("/src/assets/fonts/OpenSans-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Open Sans Regular";
+    src: local("Open Sans Regular"), local("OpenSans-Regular");
+    src: url("/src/assets/fonts/OpenSans-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Open Sans Medium";
+    src: local("Open Sans Medium"), local("OpenSans-Medium");
+    src: url("/src/assets/fonts/OpenSans-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Open Sans SemiBold";
+    src: local("Open Sans SemiBold"), local("OpenSans-SemiBold");
+    src: url("/src/assets/fonts/OpenSans-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Open Sans Bold";
+    src: local("Open Sans Bold"), local("OpenSans-Bold");
+    src: url("/src/assets/fonts/OpenSans-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+*,
+*::before,
+*::after {
+    font-family: "Open Sans Regular", sans-serif !important;
+}

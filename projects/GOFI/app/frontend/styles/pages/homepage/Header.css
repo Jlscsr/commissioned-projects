@@ -1,0 +1,51 @@
+/*
+========================================================================
+                        CSS for Header Section
+========================================================================
+
+This file contains styles for the header section in the homepage.
+
+========================================================================
+                        Second Column Styles
+========================================================================
+*/
+
+.homepage > .second-column {
+    width: 100%;
+    height: 100vh;
+}
+
+/*
+========================================================================
+                        Header Container Styles
+========================================================================
+*/
+
+.homepage > .second-column > .header-container {
+    background-color: #295ad9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    color: #fff;
+}
+
+/*
+========================================================================
+                        Page Name Styles
+========================================================================
+*/
+
+.homepage > .second-column > .header-container > .page-name > h1 {
+    font-family: "Poppins Medium", sans-serif;
+}
+
+/*
+========================================================================
+                        School Logo Styles
+========================================================================
+*/
+
+.homepage > .second-column > .header-container > .school-logo > img {
+    width: 6.25rem;
+}

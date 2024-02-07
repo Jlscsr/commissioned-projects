@@ -1,0 +1,54 @@
+/*
+========================================================================
+            CSS for Dynamic Content Container and Loading Indicator
+========================================================================
+
+This file contains styles for the dynamic content container in the homepage.
+
+========================================================================
+                        Dynamic Content Container Styles
+========================================================================
+*/
+
+.homepage > .second-column > .dynamic-content-container {
+    position: relative;
+    height: calc(100vh - 9.375rem);
+    padding: 1rem 2rem;
+    overflow-y: auto;
+}
+
+/*
+========================================================================
+                        Loading Indicator Styles
+========================================================================
+*/
+
+.homepage > .second-column > .dynamic-content-container > .loading-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .loading-indicator
+    > .loading-spinner {
+    border: 0.25rem solid #3498db;
+    border-top: 0.25rem solid transparent;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    animation: spin 1s linear infinite;
+    margin: auto;
+    display: block;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

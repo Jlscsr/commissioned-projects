@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+    font-size: 18px;
+    color: #333333;
+}
+
+html {
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    background-color: #fdfdff;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}

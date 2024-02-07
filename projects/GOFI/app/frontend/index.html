@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/main.css" />
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <title>Guidance Office Management information system</title>
+    </head>
+
+    <body class="login">
+        <div class="wrapper">
+            <h1>Log In</h1>
+            <form id="loginForm" class="form">
+                <!-- Email -->
+                <div class="input-box">
+                    <label for="email" class="block"> Email </label>
+                    <input
+                        type="text"
+                        placeholder="email"
+                        id="email"
+                        class="block"
+                        required
+                    />
+                </div>
+
+                <!-- Password -->
+                <div class="input-box">
+                    <label for="password" class="block"> Password </label>
+                    <input
+                        class="block"
+                        type="password"
+                        placeholder="Password"
+                        id="password"
+                        required
+                    />
+                </div>
+
+                <!-- LogIn -->
+                <button type="submit">LogIn</button>
+            </form>
+        </div>
+        <script defer type="module" src="./scripts/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+.skill-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4.44rem;
+}
+
+.skill-page > h2 {
+    margin-bottom: 4.9rem;
+}
+
+.skill-page > .inner-content {
+    display: flex;
+    column-gap: 10rem;
+}
+
+.skill-page > .inner-content > div > h3 {
+    padding-bottom: 1.33rem;
+    margin-bottom: 0.9rem;
+    border-bottom: 0.06rem solid #62929e;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 815px) {
+    .skill-page > .inner-content {
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+    }
+}

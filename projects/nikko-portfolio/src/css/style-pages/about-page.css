@@ -1,0 +1,36 @@
+/* About Page */
+.main > .about-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #393d3f;
+    padding: 4.44rem;
+}
+
+.main > .about-page > h2 {
+    margin-bottom: 4.9rem;
+}
+
+.main > .about-page > .information {
+    display: flex;
+    column-gap: 12.22rem;
+}
+
+.main > .about-page > .information h3 {
+    padding-bottom: 1.33rem;
+    margin-bottom: 0.9rem;
+    border-bottom: 0.06rem solid #62929e;
+}
+
+.main > .about-page > .information > .inner-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.7rem;
+}
+
+@media screen and (max-width: 815px) {
+    .main > .about-page > .information {
+        width: 100%;
+    }
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 815px) {
+    .pd-rs-32 {
+        padding: 1.8rem !important;
+    }
+
+    .fl-dir-col-gp-32 {
+        flex-direction: column !important;
+        gap: 32px !important;
+    }
+
+    .mb-40 {
+        margin-bottom: 40px !important;
+    }
+}

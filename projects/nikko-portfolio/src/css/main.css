@@ -1,0 +1,16 @@
+/* Entry Point of All Styles */
+
+/* Utils */
+@import "./utils/font-face.css";
+@import "./utils/resets.css";
+@import "./utils/text.css";
+@import "./utils/media-queries.css";
+
+/* Partials */
+@import "./style-pages/header.css";
+@import "./style-pages/home-page.css";
+@import "./style-pages/skills-page.css";
+@import "./style-pages/services-page.css";
+@import "./style-pages/projects-page.css";
+@import "./style-pages/contact-page.css";
+@import "./style-pages/about-page.css";

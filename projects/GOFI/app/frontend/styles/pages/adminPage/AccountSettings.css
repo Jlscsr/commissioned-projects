@@ -1,0 +1,73 @@
+/*
+========================================================================
+                    CSS for Account Settings Section
+========================================================================
+
+This file contains styles for the Account Settings section in the Page.
+
+========================================================================
+                            Styles
+========================================================================
+*/
+
+.homepage > .second-column > .dynamic-content-container > .account-settings {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .account-settings
+    > .account-settings-form {
+    padding-inline: 1rem;
+    margin-top: 0.5rem;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .account-settings
+    > .account-settings-form
+    > .form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 31.25rem;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .account-settings
+    > .account-settings-form
+    > .form
+    > .student-names {
+    display: flex;
+    justify-content: space-between;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .account-settings
+    > .account-settings-form
+    > .form
+    > .passwords {
+    display: flex;
+    justify-content: space-between;
+}
+
+.homepage
+    > .second-column
+    > .dynamic-content-container
+    > .account-settings
+    > .account-settings-form
+    > .form
+    > .buttons {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 1.5rem;
+    margin-top: 1.5rem;
+}

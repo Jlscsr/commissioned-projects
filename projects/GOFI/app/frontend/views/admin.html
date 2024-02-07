@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../styles/main.css" />
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <title>Guidance Office Management information system</title>
+    </head>
+    <body class="homepage">
+        <!-- Sidebar -->
+        <div class="sidebar-container">
+            <div class="first-content-container">
+                <!-- Profile Container -->
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img
+                            src="../../assets/images/user.svg"
+                            alt="User Profile"
+                            class="img-style"
+                        />
+                    </div>
+                    <div class="user-info">
+                        <p class="profile-name">Full name</p>
+                        <p class="profile-role">Admin</p>
+                    </div>
+                </div>
+
+                <!-- Navigation Bar -->
+                <div class="navbar-container">
+                    <ul class="navbar">
+                        <li class="navbar-item">
+                            <span class="nav-item-icon block">
+                                <img
+                                    src="../../assets/images/student_entry.svg"
+                                    class="img-style"
+                                    alt="Student Entry Icon"
+                                />
+                            </span>
+                            <button
+                                id="student-entry-button"
+                                class="navbar-link"
+                            >
+                                Student Entry
+                            </button>
+                        </li>
+                        <li class="navbar-item">
+                            <span class="nav-item-icon block block">
+                                <img
+                                    src="../../assets/images/account_settings.svg"
+                                    class="img-style"
+                                    alt="Account Setting Icon"
+                                />
+                            </span>
+                            <button
+                                id="account-settings-button"
+                                class="navbar-link"
+                            >
+                                Account Settings
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Logout Button -->
+            <div class="logout-container">
+                <div class="logout-button">
+                    <button class="logout" id="logout-button">
+                        <img
+                            src="../../assets/images/logout.svg"
+                            class="img-style"
+                            alt="Logout Icon"
+                        />
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <div class="second-column">
+            <div class="header-container">
+                <div class="page-name">
+                    <h1 class="heading-name">Student Entry</h1>
+                </div>
+                <div class="school-logo">
+                    <img
+                        src="../../assets/images/PCU-logo-1.svg"
+                        alt="PCU Logo"
+                    />
+                </div>
+            </div>
+            <div
+                class="dynamic-content-container"
+                id="dynamic-content-container"
+            >
+                <!-- Dynamic content will inject here -->
+            </div>
+        </div>
+        <script defer type="module" src="../scripts/pages/admin.js"></script>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 4.44rem;
+    column-gap: 1.11rem;
+    background-color: #393d3f;
+}
+
+.contact > h2 {
+    margin-bottom: 1.3rem;
+}
+
+.contact > .form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.3rem;
+    max-width: 100%;
+    width: 28rem;
+}
+
+.contact > .form > div > button {
+    display: block;
+    padding-block: 0.9rem;
+    padding-inline: 2rem;
+    color: #333333;
+    border: 1px solid black;
+    background-color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact > .form > div > button:hover {
+    color: #fdfdff;
+    background-color: #62929e;
+}
+
+@media screen and (max-width: 815px) {
+    /* Contact Page */
+    .contact {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,39 @@
+.text-1 {
+    font-size: 1.33rem;
+}
+
+.text-2 {
+    font-size: 1.8rem;
+}
+
+.text-3 {
+    font-size: 2.4rem;
+}
+
+.text-4 {
+    font-size: 3.22rem;
+}
+
+.text-5 {
+    font-size: 4.22rem;
+}
+
+.text-thin {
+    font-family: "Open Sans Light", sans-serif !important;
+}
+
+.text-regular {
+    font-family: "Open Sans Regular", sans-serif !important;
+}
+
+.text-medium {
+    font-family: "Open Sans Medium", sans-serif !important;
+}
+
+.text-semibold {
+    font-family: "Open Sans SemiBold", sans-serif !important;
+}
+
+.text-bold {
+    font-family: "Open Sans Bold", sans-serif !important;
+}
